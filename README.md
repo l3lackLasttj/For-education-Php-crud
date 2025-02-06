@@ -1,0 +1,14 @@
+create db :
+CREATE DATABASE school_db;
+
+USE school_db;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    nickname VARCHAR(30),
+    birthdate DATE
+);
+
+Langauge php pdo and manage student data with sql
